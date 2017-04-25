@@ -26,6 +26,8 @@ Clone the repo, in elasticsearch-boolean-similarity-plugin:
 
 4. Use the elasticsearch install plugin tool to install elasticsearch.zip
 
+5. Restart elasticsearch ( if it was open ).
+
 e.g:
 /users/h3h3/bin/elasticsearch-5.2.2/bin/elasticsearch-plugin install file:/users/h3h3/esplugins/elasticsearch-boolean-similarity-plugin/elasticsearch.zip
 
