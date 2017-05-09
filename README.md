@@ -5,7 +5,7 @@ This plugin makes available boolean similarity from lucence in elasticsearch V5+
 
 I.E: Given a term, if it is present, count 1 ( * boost ) to the score regardless of frequency or IDF. Sometimes the complex elasticsearch similarity modules are actualy not appropraite for the usecase. For example, if you have a database of dishes and their ingredients, if you query for "eggs" you don't really care about the frequency of the word eggs, or the length of the document, you just care that it contains eggs. 
 
-This plugin can be expected to eventually become obsolete, a commit has been made to the elasticsearch master which adds boolean similarity as part of the default modules, but for now this plugin will sufice. 
+Note: Boolean similarity is now implemented in elasticsearch 5.4.0, for previous versions this plugin will implement the same feature in essentialy the same way.
 
 
 ## Compiling the code and Installing the plugin
